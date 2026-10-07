@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="WL Orders"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.WLOrders"
+        android:usesCleartextTraffic="true">
+        <!--
+          usesCleartextTraffic=true is only here so http://10.0.2.2/... (your local
+          test server) works from the emulator. Once ApiConfig.BASE_URL points at a
+          real https:// domain, you can remove this line.
+        -->
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".OrdersActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".OrderDetailActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette, sampled from the logo -->
+    <color name="primary">#000000</color>          <!-- logo black: toolbar, buttons, titles -->
+    <color name="primary_dark">#000000</color>     <!-- status bar -->
+    <color name="accent">#2080BB</color>           <!-- logo blue: highlights, spinners, focus -->
+    <color name="accent_light">#34D4DE</color>     <!-- logo cyan (arrow tip) -->
+    <color name="brand_gray">#A3A5A7</color>       <!-- logo silver-gray -->
+
+    <color name="background">#F2F3F4</color>
+    <color name="text_primary">#111111</color>
+    <color name="text_secondary">#6B6E72</color>
+
+    <color name="ic_launcher_background">#000000</color>
+</resources>
